@@ -65,6 +65,24 @@ a:hover, a:focus {
   color: #d43133;
 }
 
+a.colaborador:link, a.colaborador:visited {
+	text-decoration: none;
+        color: #ff8e2a;
+	}
+a.colaborador:hover {
+	text-decoration: underline; 
+        color: #ff8e2a;
+	}
+a.colaborador:active {
+	text-decoration: none;
+        color: #ff8e2a;
+	}
+        
+.palestras{
+    text-align: center; width: 290px; height:200px; -moz-border-radius:7px; 
+    -webkit-border-radius:7px; border-radius:7px; background:#EEE;padding:10px;
+}
+
 hr {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #fff;
